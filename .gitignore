@@ -63,6 +63,3 @@ tsconfig.tsbuildinfo
 # SQL migration files (keep in source, ignore compiled)
 seed_categories.sql
 schema.sql
-
-# npx ts-node scripts/generate-license.ts --init
-# npx ts-node scripts/generate-license.ts "Suhail Sanabani" private_key.pem 365
