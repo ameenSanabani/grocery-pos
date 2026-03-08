@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnpm-store
+.npm
+venv/
+__pycache__/
+*.py[cod]
+
+# Build Outputs
+dist/
+build/
+.next/
+out/
+*.egg-info/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# RSA Private Keys
+*.pem
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Temporary files
+tmp/
+temp/
+client/public/bulk_procurement/
+barcode_import_template.csv
+barcode_import_template.xlsx
+
+# Database temporary files
+*.db
+*.db-shm
+*.db-wal
+*-shm
+*-wal
+
+# Development artifacts
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# SQL migration files (keep in source, ignore compiled)
+seed_categories.sql
+schema.sql
+
+# npx ts-node scripts/generate-license.ts --init
+# npx ts-node scripts/generate-license.ts "Suhail Sanabani" private_key.pem 365
